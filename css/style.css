@@ -272,6 +272,7 @@ h5 {
     height: 100%;
     
     
+    
 }
 
 .card-img-2 .pro-title {
@@ -289,15 +290,32 @@ h5 {
 
 .pro-title h5 {
     text-align: left;
+    padding-top: 25px;
+}
+.card-img-1 i {
+    font-size: 50px;
+    display: block;
+    text-align: right;
+    margin:25px 0px;
+    color: #f9004d;
 }
 
- .pro-link {
+.card-img-2 i {
+    font-size: 50px;
+    display: block;
+    text-align: right;
+    margin:25px 0px;
+    color: #f9004d;
+}
+
+.pro-title {
     display: flex;
-    
-   
-
 }
-.pro-title .pro-link a {
+
+.pro-title {
+    display: flex;
+}
+/* .pro-title .pro-link a {
     width: 45px;
     height: 45px;
     display: flex;
@@ -305,16 +323,28 @@ h5 {
     justify-content:right;
     /* background: #f9004d;
     border-radius: 50%; */
-    padding-bottom: 200px;
+    /* padding-bottom: 200px;
     margin-left: 250px;
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+}  */
+.pro-title a:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    top: 0px;
+    right: 10px;
+    text-decoration: none;
 }
-.pro-link a:hover {
+
+
+
+
+ .pro-title a:hover {
     transform: scale(1.3);
     transition: .3s;
-}
+ }  
 
 /* Contact section */
 .contact-me {
