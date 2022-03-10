@@ -17,7 +17,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 45px 8% 0px 8%;
+    padding-top: 45px;
+padding-right: 8%;
+padding-left: 8%;
 }
 .logo {
     color: white;
@@ -222,6 +224,96 @@ h5 {
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
+}
+
+/* project section */
+
+.project {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.card-img-1 {
+    
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: url('../img/pro-1.PNG') no-repeat center center / cover;;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.card-img-2 {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: url('../img/pro-2.PNG') no-repeat center center / cover;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-img-1 .pro-title {
+    background-color: #191919;
+    box-sizing: border-box;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    padding: 10px 25px;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.card-img-2 .pro-title {
+    background-color: #191919;
+    box-sizing: border-box;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    padding: 10px 25px;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.pro-title h5 {
+    text-align: left;
+}
+
+ .pro-link {
+    display: flex;
+    
+   
+
+}
+.pro-title .pro-link a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: right;
+    justify-content:right;
+    /* background: #f9004d;
+    border-radius: 50%; */
+    padding-bottom: 200px;
+    margin-left: 250px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.pro-link a:hover {
+    transform: scale(1.3);
+    transition: .3s;
 }
 
 /* Contact section */
